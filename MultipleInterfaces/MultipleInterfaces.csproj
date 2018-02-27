@@ -46,6 +46,7 @@
     <Compile Include="IPowerPlug.cs" />
     <Compile Include="IFridge.cs" />
     <Compile Include="ILamp.cs" />
+    <Compile Include="ITemperatureSetter.cs" />
     <Compile Include="Lamp.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

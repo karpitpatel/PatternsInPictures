@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace MultipleInterfaces
 {
-    public interface IFridge : ITemperatureSetter, IPowerPlug
+    public interface ITemperatureSetter
     {
+        double SetTemperature { get; set; }
 
+        double RealTemperature { get; }
     }
 }
