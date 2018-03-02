@@ -42,9 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdaptedLamp.cs" />
     <Compile Include="IAmericanPowerPlug.cs" />
     <Compile Include="IEuropeanPowerPlug.cs" />
-    <Compile Include="Lamp.cs" />
+    <Compile Include="AmericanLamp.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
