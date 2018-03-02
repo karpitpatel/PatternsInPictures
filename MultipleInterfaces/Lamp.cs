@@ -19,6 +19,8 @@ namespace MultipleInterfaces
 
                 _isSwitchOn = value;
 
+                // set IsOn to be true iff 
+                // IsSwitchOn and IsPlugged are true
                 IsOn = IsSwitchOn && IsPlugged;
             }
         }
@@ -35,6 +37,7 @@ namespace MultipleInterfaces
 
                 _isOn = value;
 
+                // print to console when IsOn changes
                 Console.WriteLine($"The lamp is {(_isOn ? "On": "Off")}");
             }
         }
@@ -51,6 +54,8 @@ namespace MultipleInterfaces
 
                 _isPlugged = value;
 
+                // set IsOn to be true iff 
+                // IsSwitchOn and IsPlugged are true
                 IsOn = IsSwitchOn && IsPlugged;
             }
         }
