@@ -8,6 +8,10 @@ namespace AdapterSample
 {
     public class Lamp : IAmericanPowerPlug
     {
-        public bool IsPluggedIntoAmericanPowerOutlet { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
+        public bool IsPluggedIntoAmericanPowerOutlet
+        {
+            get => throw new NotImplementedException();
+            set => throw new NotImplementedException();
+        }
     }
 }
