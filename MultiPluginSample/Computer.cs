@@ -8,12 +8,18 @@ namespace MultiPluginSample
 {
     public class Computer
     {
+        // reference to IMouse
         public IMouse Mouse { get; set; }
 
+        // reference to IKeyboard
         public IKeyboard Keyboard { get; set; }
 
         public Computer()
         {
+            // defaults are set to 
+            // PlainMouse and 
+            // PlainKeyboard
+
             Mouse = new PlainMouse();
 
             Keyboard = new PlainKeyboard();

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace MultiPluginSample
 {
+    //IKeyboard interface
     public interface IKeyboard
     {
         void KeyClick(char c);

@@ -5,7 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace MultiPluginSample
-{
+{    
+    // PlainMouse
+    // mentions PlainMouse in its console 
+    // messages
     public class FancyMouse : IMouse
     {
         double _x = 0;

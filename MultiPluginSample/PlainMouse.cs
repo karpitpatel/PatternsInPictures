@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace MultiPluginSample
 {
+    // PlainMouse
+    // mentions PlainMouse in its console 
+    // messages
     public class PlainMouse : IMouse
     {
         double _x = 0;

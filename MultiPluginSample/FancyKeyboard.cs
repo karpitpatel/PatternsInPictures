@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace MultiPluginSample
 {
+    // FancyKeyboard
+    // mentions FancyKeyboard in its console 
+    // messages
     public class FancyKeyboard : IKeyboard
     {
         public void KeyClick(char c)

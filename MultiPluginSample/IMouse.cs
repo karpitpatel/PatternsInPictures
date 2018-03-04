@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace MultiPluginSample
 {
+    // IMouse interface
     public interface IMouse
     {
         double X { get; set; }
