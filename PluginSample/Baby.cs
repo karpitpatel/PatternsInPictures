@@ -10,11 +10,14 @@ namespace PluginSample
     {
         ISuccable _succablePlugin = null;
 
+        // set the succable plugin
         public void SetSuccablePlugin(ISuccable succablePlugin)
         {
             _succablePlugin = succablePlugin;
         }
 
+        // method suck - call the corresponing
+        // plugin method
         public void Suck()
         {
             _succablePlugin?.Suck();
