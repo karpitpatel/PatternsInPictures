@@ -25,6 +25,8 @@ namespace MultiPluginSample
             Keyboard = new PlainKeyboard();
         }
 
+        // wrapper around IMouse.X and IMouse.Y
+        // setters
         public void MoveMouse(double x, double y)
         {
             if (Mouse == null)
@@ -34,11 +36,13 @@ namespace MultiPluginSample
             Mouse.Y = y;
         }
 
+        // wrapper around IMouse.LeftButtonClick()
         public void MouseClick()
         {
             Mouse?.LeftButtonClick();
         }
 
+        // Wrapper around IKeyboard.KeyClick(char c)
         public void ClickKeyboardKey(char c)
         {
             Keyboard?.KeyClick(c);
