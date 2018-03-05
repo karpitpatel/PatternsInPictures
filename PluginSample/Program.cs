@@ -12,7 +12,7 @@ namespace PluginSample
         {
             Baby baby = new Baby();
 
-            Console.WriteLine("Setting succable plugin to passifier");
+            Console.WriteLine("Setting succable plugin to pacifier");
             baby.SetSuccablePlugin(new Pacifier());
 
             baby.Suck();
